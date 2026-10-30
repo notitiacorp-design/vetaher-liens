@@ -1,0 +1,40 @@
+/* Vetaher adaptation of LittleLink; MIT. No third-party requests. */
+:root{--ink:#172d4d;--navy:#173661;--paper:#f5f3ed;--line:#d8dedf;--muted:#526075;--spacing-m:1.5rem;color-scheme:light}
+html{background:var(--paper);scroll-behavior:auto}
+body{background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.5}
+.preview-notice{padding:9px 16px;text-align:center;color:#5a5139;background:#eee9dc;border-bottom:1px solid #ded7c5;font-size:11px;line-height:1.5}
+.container{width:100%;max-width:496px;margin:0 auto;padding:28px 24px 20px;text-align:center}
+.identity{margin:0 0 24px}
+.avatar{width:112px;height:112px;object-fit:contain;margin:0 auto 16px;border-radius:50%;background:#fff;border:1px solid #e0e5e8}
+.container .eyebrow{font-size:10px;font-weight:700;letter-spacing:.26em;margin:0 0 2px;color:var(--muted)}
+h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:47px;line-height:1.08;letter-spacing:-.035em;margin:0 0 10px;color:var(--navy);hyphens:none}
+.container .intro{font-size:14px;line-height:1.5;color:var(--muted);margin:0}
+.links{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.links li{margin:0}
+a.button.link{width:100%;min-height:57px;display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0;padding:15px 19px;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:6px;text-decoration:none;text-align:left;font-weight:600;font-size:15px;line-height:1.4;hyphens:none;transition:background-color .15s,border-color .15s}
+.link span{flex:1;min-width:0}
+.link-copy{display:flex;flex-direction:column;gap:3px}
+.link-copy small{font-size:12px;font-weight:400;line-height:1.4;color:var(--muted)}
+.link svg{width:19px;height:19px;flex:0 0 19px;color:#6c7b8e}
+a.button.link:hover{background:#eef2f5;border-color:#9caebc;color:var(--ink)}
+a.button.link.primary{color:#fff;background:var(--navy);border-color:var(--navy);font-weight:700;min-height:62px}
+a.button.link.primary svg{color:#fff}
+a.button.link.primary:hover{background:#102747;border-color:#102747;color:#fff}
+.socials{display:flex;justify-content:center;gap:28px;margin:23px 0 0}
+a.social{font-size:14px;font-weight:600;line-height:1.5;padding:11px 4px;min-height:44px;color:var(--ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}
+footer{margin:21px 0 0;padding:20px 0 4px;border-top:1px solid var(--line);font-size:11px;line-height:1.6;color:var(--muted)}
+footer .website{display:inline-flex;align-items:center;min-height:44px;font-size:13px;font-weight:600;color:var(--ink);text-decoration:none}
+footer p{font-size:11px!important;margin:10px 0 0!important;color:var(--muted)}
+footer .credits{display:inline-block;padding:8px;color:var(--muted);font-size:11px;text-decoration:underline;text-underline-offset:3px}
+:focus-visible{outline:3px solid #986b12!important;outline-offset:4px!important}
+.skip{position:fixed;top:-150px;left:12px;background:#fff;color:var(--navy);padding:12px 18px;z-index:10;font-size:16px}
+.skip:focus{top:12px}
+.legal{text-align:left;padding-top:44px;max-width:640px}
+.legal h1{font-size:36px;margin:28px 0}
+.legal h2{font-size:20px;margin:30px 0 12px}
+.container.legal p{font-size:15px;margin:0 0 18px;color:var(--ink)}
+.legal code{font-size:12px;overflow-wrap:anywhere}
+.legal a{color:var(--navy)}
+@media(min-width:800px){.container{padding-top:40px}.identity{margin-bottom:28px}.avatar{margin-bottom:20px}.preview-notice{font-size:12px}}
+@media(max-width:360px){.container{padding:24px 17px 18px}.avatar{width:96px;height:96px;margin-bottom:14px}h1{font-size:43px}.identity{margin-bottom:22px}a.button.link{padding:14px 16px;font-size:14px;min-height:55px}.preview-notice{font-size:10px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}

@@ -1,0 +1,90 @@
+{
+  "title": "Association Vetaher",
+  "status": "preview",
+  "links": [
+    {
+      "id": "soutenir",
+      "label": "Soutenir Vetaher",
+      "href": "https://fondation.vetaher.fr/",
+      "primary": true,
+      "legacy_ids": [
+        "58103047",
+        "58110816"
+      ]
+    },
+    {
+      "id": "actions",
+      "label": "Découvrir les actions de Vetaher",
+      "href": "https://www.vetaher.fr/a-propos/"
+    },
+    {
+      "id": "alimentaire",
+      "label": "Demander une aide alimentaire",
+      "href": "https://www.vetaher.fr/aide-alimentaire/",
+      "legacy_ids": [
+        "56558668"
+      ]
+    },
+    {
+      "id": "vetements",
+      "label": "Donner des vêtements",
+      "hint": "Retrait à domicile · compte requis",
+      "href": "https://v.vetaher.fr/vestiaire",
+      "legacy_ids": [
+        "58101024"
+      ]
+    },
+    {
+      "id": "cacherisation",
+      "label": "Cachérisation de la vaisselle",
+      "href": "https://www.vetaher.fr/cacherisation/",
+      "legacy_ids": [
+        "58101250"
+      ]
+    },
+    {
+      "id": "hevra",
+      "label": "Hévra Kadicha",
+      "href": "https://www.vetaher.fr/hevra-kadicha/",
+      "legacy_ids": [
+        "58100847"
+      ]
+    },
+    {
+      "id": "gueniza",
+      "label": "Gueniza",
+      "href": "https://www.vetaher.fr/gueniza/",
+      "legacy_ids": [
+        "58100777"
+      ]
+    },
+    {
+      "id": "video",
+      "label": "Urgence enterrement : vidéo",
+      "href": "https://www.youtube.com/watch?v=U7MdqAUSH9M",
+      "legacy_ids": [
+        "58112992"
+      ]
+    }
+  ],
+  "socials": [
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "href": "https://www.instagram.com/association_vetaher/",
+      "legacy_ids": [
+        "social:INSTAGRAM"
+      ]
+    },
+    {
+      "id": "facebook",
+      "label": "Facebook",
+      "href": "https://www.facebook.com/160210497713347"
+    }
+  ],
+  "website": {
+    "id": "site",
+    "label": "vetaher.fr",
+    "href": "https://www.vetaher.fr/"
+  }
+}

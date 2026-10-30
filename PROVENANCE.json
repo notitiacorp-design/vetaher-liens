@@ -1,0 +1,8 @@
+{
+  "upstream": "https://github.com/sethcottle/littlelink",
+  "upstream_commit": "3c9162c9f8324d5e002259ed8b4b3cc377b08486",
+  "license": "MIT",
+  "logo_source": "https://www.vetaher.fr/wp-content/uploads/2023/04/logo-Vetaher-1.png",
+  "logo_sha256": "5889fc4f1c0a7f07b933c51f13ab17e7e461ac030fa4a94062c4bf48cb5f7471",
+  "prepared_utc": "2026-10-30T11:14:22.509247+00:00"
+}
