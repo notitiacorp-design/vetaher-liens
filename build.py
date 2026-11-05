@@ -63,7 +63,7 @@ def build():
 </head>
 <body>
 <a class="skip" href="#liens">Accéder aux liens</a>
-<div class="preview-notice" role="note">Aperçu à valider · les profils existants sont inchangés</div>
+
 <main class="container" id="contenu">
 <header class="identity">
 <img class="avatar avatar--none" src="assets/logo.png" alt="Logo de l’association Vetaher" width="112" height="112" fetchpriority="high">
